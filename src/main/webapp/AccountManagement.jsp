@@ -376,13 +376,13 @@
     
 
     <script>
-        <!--// Simulated account data
-        let accounts = [
-            {accountNumber: "1234567890", type: "Savings", balance: 52400.75, status: "Active", nickname: "Main Savings"},
-            {accountNumber: "9876543210", type: "Current", balance: 12000.00, status: "Active", nickname: "Business"},
-            {accountNumber: "1122334455", type: "Salary", balance: 3000.50, status: "Inactive", nickname: "Salary"},
-            {accountNumber: "9988776655", type: "Savings", balance: 1500.00, status: "Closed", nickname: "Old Account"}
-        ];-->
+        // Simulated account data
+//         let accounts = [
+//             {accountNumber: "1234567890", type: "Savings", balance: 52400.75, status: "Active", nickname: "Main Savings"},
+//             {accountNumber: "9876543210", type: "Current", balance: 12000.00, status: "Active", nickname: "Business"},
+//             {accountNumber: "1122334455", type: "Salary", balance: 3000.50, status: "Inactive", nickname: "Salary"},
+//             {accountNumber: "9988776655", type: "Savings", balance: 1500.00, status: "Closed", nickname: "Old Account"}
+//         ];
 
         let deleteAccountNumber = null;
 
@@ -534,11 +534,11 @@
             });
         };
      // For the add-account button
-        function openAddModal() {
-            document.getElementById('add-form').reset();
-            document.getElementById('add-error').textContent = '';
-            openModal('add-modal');
-        }
+//         function openAddModal() {
+//             document.getElementById('add-form').reset();
+//             document.getElementById('add-error').textContent = '';
+//             openModal('add-modal');
+//         }
 
         
     </script>
